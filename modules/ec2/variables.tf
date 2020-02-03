@@ -1,0 +1,12 @@
+variable "ec2_profile_name"       { default = "" }
+variable "role_name"              { default = "" }
+variable "ami"                    { default = "" }
+variable "instance_type"          { default = "" }
+variable "key_name"               { default = "" }
+variable "subnet_id"              { default = "" }
+variable "vpc_security_group_ids" { default = [""] }
+variable "public_ip"              { default = "" }
+variable "source_dest_check"      { default = "" }
+variable "disk_size"              { default = "" }
+variable "command"                { default = "" }
+variable "tag_name"               { default = "" }
