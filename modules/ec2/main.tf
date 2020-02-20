@@ -17,7 +17,7 @@ resource "aws_instance" "ec2" {
     volume_size = "${var.disk_size}"
   }
 
-  provisioner "local-exec" {
+  provisioner "remote-exec" {
     command = "${var.command}"
   }
 
